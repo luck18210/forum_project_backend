@@ -108,12 +108,15 @@ GEM
     net-smtp (0.3.3)
       net-protocol
     nio4r (2.5.8)
-    nokogiri (1.13.10-x64-mingw-ucrt)
+    nokogiri (1.15.3-x64-mingw-ucrt)
       racc (~> 1.4)
+    nokogiri (1.15.3-x86_64-linux)
+      racc (~> 1.4)
+    pg (1.4.5)
     pg (1.4.5-x64-mingw-ucrt)
     puma (5.6.5)
       nio4r (~> 2.0)
-    racc (1.6.2)
+    racc (1.7.1)
     rack (2.2.5)
     rack-cors (1.1.1)
       rack (>= 2.0.0)
@@ -157,11 +160,11 @@ GEM
     websocket-driver (0.7.5)
       websocket-extensions (>= 0.1.0)
     websocket-extensions (0.1.5)
-    will_paginate (3.1.8)
     zeitwerk (2.6.6)
 
 PLATFORMS
   x64-mingw-ucrt
+  x86_64-linux
 
 DEPENDENCIES
   bcrypt (~> 3.1.7)
@@ -173,7 +176,6 @@ DEPENDENCIES
   rack-cors
   rails (~> 7.0.4)
   tzinfo-data
-  will_paginate (~> 3.1.6)
 
 RUBY VERSION
    ruby 3.1.3p185
